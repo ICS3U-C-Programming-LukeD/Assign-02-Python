@@ -16,7 +16,7 @@ def main():
     # Intro message
     units = str(input("Enter the unit of measurement you want to use: "))
     # Asks for unit of measurement
-    edge_length = float(input(("Enter the length of your icosahedrons edge in: ")))
+    edge_length = float(input(("Enter the length of your icosahedrons edge: ")))
     # Asks user for edge length
     round_to = int(input("Enter the amount of decimals you want to round to: "))
     # Asks user what they want their answer rounded to
