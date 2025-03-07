@@ -21,9 +21,9 @@ def main():
     round_to = int(input("Enter the amount of decimals you want to round to: "))
     # Asks user what they want their answer rounded to
     print()
-    surface_area = 5 * (math.sqrt(3) * edge_length**2)
+    surface_area = 5 * (math.sqrt(3) * edge_length ** 2)
     # Calculates surface area using the proper formula
-    volume = (5 * (3 + math.sqrt(5)) / 12) * edge_length**3
+    volume = (5 * (3 + math.sqrt(5)) / 12) * edge_length ** 3
     # Calculates volume using the proper formula
     print("The surface area is: " + str(round(surface_area, round_to)) + (units) + "^2")
     # Displays surface area rounded to users decimal point and displayed with proper units
